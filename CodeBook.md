@@ -54,7 +54,7 @@ being cleaned by renaming them from their original abbreviated state to having m
 variable names and the newly created names are shown below:
 
 |	Old Variable Names	            |	New Variable Names	                                    |
-|	________________________________|_________________________________________________________|
+|	--------------------------------|---------------------------------------------------------|
 |	NA	                            |	Subject	                                                |
 |	NA	                            |	Activity	                                              |
 |	tBodyAcc-mean()-X	              |	TimeBodyAccelerometer-mean()-X	                        |
