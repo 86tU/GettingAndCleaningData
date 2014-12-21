@@ -32,6 +32,30 @@ Each record includes the following:
 * Its activity label. 
 * An identifier of the subject who carried out the experiment.
 
+###Variable Features
+
+* Time: Time domain signals captured at a constant rate of 50 Hz.
+* Gravity: Gravity acceleration signals.
+* Body: Body acceleration signals.
+* Jerk: Body linear acceleratino and angular velocity measures during certain movements.
+* -XYZ: 3-axial signals in teh X, Y, and Z directions.
+
+###Variable Measurements
+
+* mean(): Mean value
+* sma(): Signal magnitude area
+* energy(): Energy measure. Sum of the squares divided by the number of values. 
+* iqr(): Interquartile range 
+* entropy(): Signal entropy
+* arCoeff(): Autorregresion coefficients with Burg order equal to 4
+* correlation(): correlation coefficient between two signals
+* maxInds(): index of the frequency component with largest magnitude
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* skewness(): skewness of the frequency domain signal 
+* kurtosis(): kurtosis of the frequency domain signal 
+* bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* angle(): Angle between to vectors.
+
 ==========================
 
 ###Table Formation and Variable Transformations
@@ -48,7 +72,7 @@ y_train.txt and y_test were rbinded;
 X_train.txt and X_test.txt were rbinded; 
 and finally, these three newly created columns were cbinded to form the new table.
 
-AFter subsetting the requested mean and standard deviation only rows,the items under the Activity column 
+After subsetting the requested mean and standard deviation only rows,the items under the Activity column 
 were then recoded from integers to characters for easier understanding.  This was followed up with the column names
 being cleaned by renaming them from their original abbreviated state to having more complete names.  The original 
 variable names and the newly created names are shown below:
