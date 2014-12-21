@@ -55,7 +55,7 @@ variable names and the newly created names are shown below:
 
 
 |	Old Variable Names	            |	New Variable Names	                                    |
-|	--------------------------------|---------------------------------------------------------|
+|:--------------------------------|:--------------------------------------------------------|
 |	NA	                            |	Subject	                                                |
 |	NA	                            |	Activity	                                              |
 |	tBodyAcc-mean()-X	              |	TimeBodyAccelerometer-mean()-X	                        |
