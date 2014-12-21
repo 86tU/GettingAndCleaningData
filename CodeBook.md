@@ -53,45 +53,45 @@ were then recoded from integers to characters for easier understanding.  This wa
 being cleaned by renaming them from their original abbreviated state to having more complete names.  The original 
 variable names and the newly created names are shown below:
 
-|	Old Variable Names	           |	New Variable Names	|
-|	________________________________|_______________________________________	|
-|	NA	                            |	Subject	|
-|	NA	                            |	Activity	|
-|	tBodyAcc-mean()-X	              |	TimeBodyAccelerometer-mean()-X	|
-|	tBodyAcc-mean()-Y	              |	TimeBodyAccelerometer-mean()-Y	|
-|	tBodyAcc-mean()-Z	              |	TimeBodyAccelerometer-mean()-Z	|
-|	tBodyAcc-std()-X	              |	TimeBodyAccelerometer-std()-X	|
-|	tBodyAcc-std()-Y              	|	TimeBodyAccelerometer-std()-Y	|
-|	tBodyAcc-std()-Z	              |	TimeBodyAccelerometer-std()-Z	|
-|	tGravityAcc-mean()-X	          |	TimeGravityAccelerometer-mean()-X	|
-|	tGravityAcc-mean()-Y	          |	TimeGravityAccelerometer-mean()-Y	|
-|	tGravityAcc-mean()-Z          	|	TimeGravityAccelerometer-mean()-Z	|
-|	tGravityAcc-std()-X	            |	TimeGravityAccelerometer-std()-X	|
-|	tGravityAcc-std()-Y	            |	TimeGravityAccelerometer-std()-Y	|
-|	tGravityAcc-std()-Z	            |	TimeGravityAccelerometer-std()-Z	|
-|	tBodyAccJerk-mean()-X	          |	TimeBodyAccelerometerJerk-mean()-X	|
-|	tBodyAccJerk-mean()-Y	          |	TimeBodyAccelerometerJerk-mean()-Y	|
-|	tBodyAccJerk-mean()-Z	          |	TimeBodyAccelerometerJerk-mean()-Z	|
-|	tBodyAccJerk-std()-X           	|	TimeBodyAccelerometerJerk-std()-X	|
-|	tBodyAccJerk-std()-Y          	|	TimeBodyAccelerometerJerk-std()-Y	|
-|	tBodyAccJerk-std()-Z           	|	TimeBodyAccelerometerJerk-std()-Z	|
-|	tBodyGyro-mean()-X	            |	TimeBodyGyroscope-mean()-X	|
-|	tBodyGyro-mean()-Y	            |	TimeBodyGyroscope-mean()-Y	|
-|	tBodyGyro-mean()-Z              |	TimeBodyGyroscope-mean()-Z	|
-|	tBodyGyro-std()-X	              |	TimeBodyGyroscope-std()-X	|
-|	tBodyGyro-std()-Y	              |	TimeBodyGyroscope-std()-Y	|
-|	tBodyGyro-std()-Z	              |	TimeBodyGyroscope-std()-Z	|
-|	tBodyGyroJerk-mean()-X	        |	TimeBodyGyroscopeJerk-mean()-X	|
-|	tBodyGyroJerk-mean()-Y	        |	TimeBodyGyroscopeJerk-mean()-Y	|
-|	tBodyGyroJerk-mean()-Z        	|	TimeBodyGyroscopeJerk-mean()-Z	|
-|	tBodyGyroJerk-std()-X	          |	TimeBodyGyroscopeJerk-std()-X	|
-|	tBodyGyroJerk-std()-Y	          |	TimeBodyGyroscopeJerk-std()-Y	|
-|	tBodyGyroJerk-std()-Z	          |	TimeBodyGyroscopeJerk-std()-Z	|
-|	tBodyAccMag-mean()	            |	TimeBodyAccelerometerMagnitude-mean()	|
-|	tBodyAccMag-std()	              |	TimeBodyAccelerometerMagnitude-std()	|
-|	tGravityAccMag-mean()	          |	TimeGravityAccelerometerMagnitude-mean()	|
-|	tGravityAccMag-std()	          |	TimeGravityAccelerometerMagnitude-std()	|
-|	tBodyAccJerkMag-mean()	        |	TimeBodyAccelerometerJerkMagnitude-mean()	|
+|	Old Variable Names	            |	New Variable Names	                                    |
+|	________________________________|_________________________________________________________|
+|	NA	                            |	Subject	                                                |
+|	NA	                            |	Activity	                                              |
+|	tBodyAcc-mean()-X	              |	TimeBodyAccelerometer-mean()-X	                        |
+|	tBodyAcc-mean()-Y	              |	TimeBodyAccelerometer-mean()-Y	                        |
+|	tBodyAcc-mean()-Z	              |	TimeBodyAccelerometer-mean()-Z	                        |
+|	tBodyAcc-std()-X	              |	TimeBodyAccelerometer-std()-X	                          |
+|	tBodyAcc-std()-Y              	|	TimeBodyAccelerometer-std()-Y	                          |
+|	tBodyAcc-std()-Z	              |	TimeBodyAccelerometer-std()-Z	                          |
+|	tGravityAcc-mean()-X	          |	TimeGravityAccelerometer-mean()-X	                      |
+|	tGravityAcc-mean()-Y	          |	TimeGravityAccelerometer-mean()-Y	                      |
+|	tGravityAcc-mean()-Z          	|	TimeGravityAccelerometer-mean()-Z	                      |
+|	tGravityAcc-std()-X	            |	TimeGravityAccelerometer-std()-X	                      |
+|	tGravityAcc-std()-Y	            |	TimeGravityAccelerometer-std()-Y                       	|
+|	tGravityAcc-std()-Z	            |	TimeGravityAccelerometer-std()-Z	                      |
+|	tBodyAccJerk-mean()-X	          |	TimeBodyAccelerometerJerk-mean()-X                    	|
+|	tBodyAccJerk-mean()-Y	          |	TimeBodyAccelerometerJerk-mean()-Y	                    |
+|	tBodyAccJerk-mean()-Z	          |	TimeBodyAccelerometerJerk-mean()-Z                      |
+|	tBodyAccJerk-std()-X           	|	TimeBodyAccelerometerJerk-std()-X	                      |
+|	tBodyAccJerk-std()-Y          	|	TimeBodyAccelerometerJerk-std()-Y	                      |
+|	tBodyAccJerk-std()-Z           	|	TimeBodyAccelerometerJerk-std()-Z	                      |
+|	tBodyGyro-mean()-X	            |	TimeBodyGyroscope-mean()-X	                            |
+|	tBodyGyro-mean()-Y	            |	TimeBodyGyroscope-mean()-Y                            	|
+|	tBodyGyro-mean()-Z              |	TimeBodyGyroscope-mean()-Z                            	|
+|	tBodyGyro-std()-X	              |	TimeBodyGyroscope-std()-X	                              |
+|	tBodyGyro-std()-Y	              |	TimeBodyGyroscope-std()-Y	                              |
+|	tBodyGyro-std()-Z	              |	TimeBodyGyroscope-std()-Z	                              |
+|	tBodyGyroJerk-mean()-X	        |	TimeBodyGyroscopeJerk-mean()-X	                        |
+|	tBodyGyroJerk-mean()-Y	        |	TimeBodyGyroscopeJerk-mean()-Y	                        |
+|	tBodyGyroJerk-mean()-Z        	|	TimeBodyGyroscopeJerk-mean()-Z	                        |
+|	tBodyGyroJerk-std()-X	          |	TimeBodyGyroscopeJerk-std()-X	                          |
+|	tBodyGyroJerk-std()-Y	          |	TimeBodyGyroscopeJerk-std()-Y	                          |
+|	tBodyGyroJerk-std()-Z	          |	TimeBodyGyroscopeJerk-std()-Z	                          |
+|	tBodyAccMag-mean()	            |	TimeBodyAccelerometerMagnitude-mean()	                  |
+|	tBodyAccMag-std()	              |	TimeBodyAccelerometerMagnitude-std()	                  |
+|	tGravityAccMag-mean()	          |	TimeGravityAccelerometerMagnitude-mean()	              |
+|	tGravityAccMag-std()	          |	TimeGravityAccelerometerMagnitude-std()	                |
+|	tBodyAccJerkMag-mean()	        |	TimeBodyAccelerometerJerkMagnitude-mean()	              |
 |	tBodyAccJerkMag-std()	          |	TimeBodyAccelerometerJerkMagnitude-std()              	|
 |	tBodyGyroMag-mean()	            |	TimeBodyGyroscopeMagnitude-mean()	                      |
 |	tBodyGyroMag-std()	            |	TimeBodyGyroscopeMagnitude-std()	                      |
