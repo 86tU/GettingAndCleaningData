@@ -53,6 +53,7 @@ were then recoded from integers to characters for easier understanding.  This wa
 being cleaned by renaming them from their original abbreviated state to having more complete names.  The original 
 variable names and the newly created names are shown below:
 
+
 |	Old Variable Names	            |	New Variable Names	                                    |
 |	--------------------------------|---------------------------------------------------------|
 |	NA	                            |	Subject	                                                |
