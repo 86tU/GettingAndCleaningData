@@ -68,14 +68,29 @@ Other<-table2[,2:80]
 CompleteTableA<-cbind(Subject, Activity, Other)
 
 #Create a second, indepedent tidy dataset with the average of each variable for each activity and each subject:
-table3<-aggregate(x=CompleteTableA, by=Subject + Activity, FUN=mean)
-table4<-table3[order(hey$Subject,hey$Activity),]
+table3<-aggregate(.~Subject + Activity, CompleteTableA,FUN=mean)
+table4<-table3[order(table3$Subject,table3$Activity),]
 write.table(table4, file="TidyData.txt", row.name=FALSE)
 
-
-
-
-
+#Acquire the original and new variable names for the Gsubjectithub Code Book and create a table:
+  #Rearrange the old dataset by moving Activity to the second column:
+  table2<-table[,c("Subject", subsettedfeaturenames2, "Activity")]
+  oldnames<-table2
+  Subject<-oldnames[,1]
+  Activity<-oldnames[,81]
+  Other<-oldnames[,2:80]
+  oldnamescomplete<-cbind(Subject, Activity, Other)
+  #Extract the old names:
+  oldnamesadjusted<-names(oldnamescomplete)
+    #Rerun lines 57-68 and then acquire the new names again:
+    newnames<-names(CompleteTableA)
+    oldvsnew<-cbind(oldnames, newnames)
+#Create a table of the old names vs the new:
+namestable<-cbind(oldnamesadjusted, newnames)
+namestable[1:2,1]<-NA
+colnames(namestable)<-c("Old Variable Names", "New Variable Names")
+CompleteNamesTable<-namestable
+write.csv(CompleteNamesTable, file="Old_vs_New_Names.csv", sep="\t")
 
 
 
